@@ -1,0 +1,85 @@
+html {
+      max-width: 100%;
+}
+
+body {
+      text-align: center;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+img {
+   vertical-align: middle;
+   cursor: pointer;
+}
+
+p {
+    font-family: Roboto;  
+    font-size: 18px;
+    font-weight: 500;
+    text-align: center;
+    margin-top: 20px;
+    color: rgb(73, 73, 73);
+    line-height: 1.5em;
+    text-align: center !important;
+}
+
+.navbar-nav li a {
+      margin-left: 15px;
+      font-family: Roboto;
+      font-size: 15px;
+      font-weight: bold;
+}
+
+.bg-light {
+      background-color: rgb(235, 235, 235, 0.88)!important;
+}
+
+.navbar-light .navbar-nav .nav-link {
+      color: rgb(64, 60, 61);
+  }
+
+  .carousel-indicators li {
+      border-radius: 0px;
+      color: rgb(0, 0, 0);
+      height: 7px;
+      background-color: rgb(255, 255, 255);
+      margin-top: 45px;
+      margin-bottom: -3px;
+      width: 4%;
+  }
+
+.linha {
+      border-radius: 10px;
+      color: rgb(0, 0, 0);
+      height: 3px;
+      background-color: rgb(0, 150, 255);
+      margin-top: 45px;
+      margin-bottom: 22px;
+      width: 54%;
+  }
+
+.linharosa {
+      border-radius: 10px;
+      color: rgb(0, 0, 0);
+      height: 3px;
+      background-color: rgb(255, 76, 149);
+      margin-top: 26px;
+      margin-bottom: 77px;
+      width: 16%;
+  }
+
+.fixed-top {
+      position: fixed;
+      top: 0px;
+      right: 0;
+      left: 0;
+      z-index: 1030;
+      height: 72px;
+  }
+
+
+  @media (max-width: 991px) {
+        .ftclogo img {
+              margin left: 40px;
+        }
+  }
