@@ -20,7 +20,9 @@ p {
     margin-top: 20px;
     color: rgb(73, 73, 73);
     line-height: 1.5em;
-    text-align: center !important;
+    align-content: center;
+    margin-bottom: 25px;
+    margin-top: 19px;
 }
 
 .navbar-nav li a {
@@ -38,7 +40,7 @@ p {
       color: rgb(64, 60, 61);
   }
 
-  .carousel-indicators li {
+.carousel-indicators li {
       border-radius: 0px;
       color: rgb(0, 0, 0);
       height: 7px;
@@ -77,9 +79,53 @@ p {
       height: 72px;
   }
 
+#pointercollapse1_mob {
+      display: none;
+}
 
-  @media (max-width: 991px) {
-        .ftclogo img {
-              margin left: 40px;
-        }
+#pointercollapse2_mob {
+      display: none;
+}
+
+#carousel_mob {
+      display: none;
+}
+
+#rodape_ftc {
+      color: rgb(121, 121, 121);
+      font-size: 13px;
+}
+
+@media only screen and (max-width: 600px) {
+      #pointercollapse1 {
+            display: none;
+      }
+      #pointercollapse1_mob{
+            display: block;
+      }
+      #pointercollapse2 {
+            display: none;
+      }
+      #pointercollapse2_mob{
+            display: block;
+      }
+      #carousel_desk {
+            display: none;
+      }
+      #carousel_mob {
+            display: block;
+      }
+    
   }
+
+@media (min-width: 1200px){
+  .col-lg-offset-3 {
+      margin-left: 25%;
+  }
+  @media (min-width: 1200px){
+  .col-lg-6 {
+      width: 53%;
+      }
+  }
+}
+  
